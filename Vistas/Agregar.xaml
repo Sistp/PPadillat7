@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PPadillat7.Vistas.Agregar"
+             Title="Agregar">
+    <VerticalStackLayout>
+        <Label 
+        Text="Agregar Estudiante"
+        FontSize="20"
+        HorizontalTextAlignment="Center"
+         />
+
+        <Entry x:Name="txtCodigo"
+           Placeholder="Ingrese el codigo"/>
+
+        <Entry x:Name="txtNombre"
+            Placeholder="Ingrese el nombre"/>
+
+        <Entry x:Name="txtApellido"
+            Placeholder="Ingrese el apellido"/>
+
+        <Entry x:Name="txtEdad"
+             Placeholder="Ingrese la edad"/>
+
+        <Button x:Name="btnAgregar" 
+            Text="Agregar" 
+            Clicked="btnAgregar_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
